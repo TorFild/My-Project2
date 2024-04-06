@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts-->
+    <link rel="icon" type="images/x-icon" href="images/youtube.ico" />
+    <!--Іконка до заголовку сторінки-->
+    <title>Фіналка</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Секція заголовку -->
+      <a href="#">
+        <img src="images/logo.png" alt="YouTube Logo" class="youtube-logo" />
+      </a>
+      <form class="search-bar">
+        <!-- Форма пошуку -->
+        <input
+          class="search-input"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button type="submit" class="search-btn">
+          <img src="images/magnify.svg" />
+        </button>
+      </form>
+      <div class="menu-icons">
+        <!-- Блок з іконками меню -->
+        <a href="#">
+          <img src="images/video-plus.svg" alt="Upload Video" />
+        </a>
+        <a href="#">
+          <img src="images/apps.svg" alt="Apps" />
+        </a>
+        <a href="#">
+          <img src="images/bell.svg" alt="Notifications" />
+        </a>
+        <a href="#">
+          <img
+            class="menu-channel-icon"
+            src="http:///unsplash.it/36/36?gravity=center"
+            alt="Your Channel"
+          />
+        </a>
+      </div>
+    </header>
+    <div class="categories">
+      <!-- Секція категорій -->
+      <section class="category-section">
+        <button class="category active">Усі</button>
+        <!-- Кнопки категорій -->
+        <button class="category">Ігри</button>
+        <button class="category">Пряма трансляція</button>
+        <button class="category">Анімація</button>
+        <button class="category">Музика</button>
+        <button class="category">Скетч-шоу</button>
+        <button class="category">Кулінарні шоу</button>
+        <button class="category">Фільми</button>
+        <button class="category">Серіали</button>
+        <button class="category">Новинки для вас</button>
+      </section>
+    </div>
+    <div class="videos">
+      <!-- Секція відео -->
+      <section class="video-section">
+        <article class="video-container">
+          <!-- Контейнер для відео -->
+          <a href="#" class="thumbnail" data-duration="10:13">
+            <!-- Тривалість відео -->
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+            <!-- Зображення  відео -->
+          </a>
+          <div class="video-bottom-section">
+            <!-- Нижня частина відео -->
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+              <!-- Зображення іконки каналу -->
+            </a>
+            <div class="video-details">
+              <!-- Деталі відео -->
+              <a href="" class="video-title">Відео</a>
+              <!-- Назва відео -->
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <!--Назва каналу -->
+              <div class="video-metadata">
+                <!-- Метадані відео -->
+                <span>122K переглядів</span>
+                <!-- Кількість переглядів -->
+                •
+                <span>3 дня тому</span>
+                <!-- Час публікації відео -->
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Решта відео зроблені так само-->
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="16:56">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>212K переглядів</span>
+                •
+                <span>6 днів тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="8:13">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>23К переглядів</span>
+                •
+                <span>1 день тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="5:23">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>56К переглядів</span>
+                •
+                <span>8 днів тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="24:45">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>134К переглядів</span>
+                •
+                <span>10 днів тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="17:40">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>43K переглядів</span>
+                •
+                <span>15 днів тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="video-section">
+        <h2 class="video-section-title">
+          Рекомендовані Відео
+          <button class="video-section-title-close">&times;</button>
+        </h2>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="34:10">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>342K переглядів</span>
+                •
+                <span>місяць тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="26:14">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>231K переглядів</span>
+                •
+                <span>2 тижні тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="31:50">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>500K переглядів</span>
+                •
+                <span>2 місяці тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="28:19">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>134К переглядів</span>
+                •
+                <span>3 тижні тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="17:55">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>78K переглядів</span>
+                •
+                <span>тиждень тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="23:15">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>99К переглядів</span>
+                •
+                <span>12 днів тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="video-section">
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:51">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>78K переглядів</span>
+                •
+                <span>3 місяці тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="46:32">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>132К переглядів</span>
+                •
+                <span>1 місяць тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="19:45">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>121K переглядів</span>
+                •
+                <span>4 дні тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:10">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>455К переглядів</span>
+                •
+                <span>6 місяців тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="35:20">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>678К переглядів</span>
+                •
+                <span>4 місяці тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="47:23">
+            <img
+              class="thumbnail-image"
+              src="http://unsplash.it/250/150?gravity=center"
+            />
+          </a>
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="http://unsplash.it/36/36?gravity=center"
+              />
+            </a>
+            <div class="video-details">
+              <a href="#" class="video-title">Відео</a>
+              <a href="#" class="video-channel-name">Назва каналу</a>
+              <div class="video-metadata">
+                <span>890К переглядів</span>
+                •
+                <span>9 місяців тому</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
